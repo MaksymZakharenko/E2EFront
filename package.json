@@ -1,8 +1,9 @@
 {
   "name": "qa",
   "scripts": {
-    "webdriver-start": "webdriver-manager start",
+    "webdriver-clean": "webdriver-manager clean",
     "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
     "e2e-dev-local": "protractor protractor.conf.js",
     "e2e-dev-selenoid": "protractor protractor_selenoid.conf.js"
   },
