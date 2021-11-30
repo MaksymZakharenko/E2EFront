@@ -1,5 +1,5 @@
 const searchInput = element(by.id("search"));
-const searchButton = element(by.css('aria-label="Search for inbox"'));
+const searchButton = element(by.buttonText("GO"));
 
 const MailinatorMainPage = function () {
   this.get = function () {
