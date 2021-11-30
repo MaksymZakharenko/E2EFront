@@ -1,4 +1,4 @@
-const searchInput = element(by.id("addOverlay"));
+const searchInput = element(by.id("search"));
 const searchButton = element(by.css('aria-label="Search for inbox"'));
 
 const MailinatorMainPage = function () {

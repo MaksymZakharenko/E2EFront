@@ -4,13 +4,15 @@ const searchValue = "capitalix";
 
 describe("Mailinator email box creation", function () {
   it("Load mailinator page", function () {
-    browser.sleep(15000);
+    browser.sleep(5000);
     mailinatorMainPage.get();
     expect(browser.getTitle()).toEqual("Mailinator");
   });
 
   it("Set search value and submit", function () {
+    browser.sleep(5000);
     mailinatorMainPage.setSearchValue(searchValue);
+     browser.sleep(5000);
     mailinatorMainPage.clickGoButton();
     expect(browser.getTitle()).toEqual(`Mailinator`);
     browser.sleep(5000);
